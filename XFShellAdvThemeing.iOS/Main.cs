@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace XFAdvThemeing.iOS
+namespace XFShellAdvThemeing.iOS
 {
     public class Application
     {

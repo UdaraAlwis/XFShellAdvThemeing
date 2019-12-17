@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
-    x:Class="XFAdvThemeing.Views.ThemeSelectionPage"
+    x:Class="XFShellAdvThemeing.Views.ThemeSelectionPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:controls="clr-namespace:XFAdvThemeing.Controls;assembly=XFAdvThemeing"
+    xmlns:controls="clr-namespace:XFShellAdvThemeing.Controls;assembly=XFShellAdvThemeing"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-    xmlns:local="clr-namespace:XFAdvThemeing"
-    xmlns:models="clr-namespace:XFAdvThemeing.Models;assembly=XFAdvThemeing"
+    xmlns:local="clr-namespace:XFShellAdvThemeing"
+    xmlns:models="clr-namespace:XFShellAdvThemeing.Models;assembly=XFShellAdvThemeing"
     Title="Change App Theme"
     ios:Page.UseSafeArea="true">
 

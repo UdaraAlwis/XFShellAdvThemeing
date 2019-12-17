@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="XFAdvThemeing.AppShell"
+    x:Class="XFShellAdvThemeing.AppShell"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-    xmlns:local="clr-namespace:XFAdvThemeing.Views"
+    xmlns:local="clr-namespace:XFShellAdvThemeing.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="XFAdvThemeing"
+    Title="XFShellAdvThemeing"
     mc:Ignorable="d">
 
     <!--

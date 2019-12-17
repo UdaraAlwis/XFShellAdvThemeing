@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace XFAdvThemeing.Services
+namespace XFShellAdvThemeing.Services
 {
     public interface IDataStore<T>
     {

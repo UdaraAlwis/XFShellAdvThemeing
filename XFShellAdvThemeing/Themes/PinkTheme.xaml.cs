@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XFAdvThemeing.Themes
+namespace XFShellAdvThemeing.Themes
 {
     public partial class PinkTheme : ResourceDictionary
     {

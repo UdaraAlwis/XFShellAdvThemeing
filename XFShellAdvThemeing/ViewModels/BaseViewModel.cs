@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Services;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Services;
 
-namespace XFAdvThemeing.ViewModels
+namespace XFShellAdvThemeing.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

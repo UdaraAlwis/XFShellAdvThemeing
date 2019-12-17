@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Views;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Views;
 
-namespace XFAdvThemeing.ViewModels
+namespace XFShellAdvThemeing.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {

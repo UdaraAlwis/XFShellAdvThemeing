@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Views;
-using XFAdvThemeing.ViewModels;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Views;
+using XFShellAdvThemeing.ViewModels;
 
-namespace XFAdvThemeing.Views
+namespace XFShellAdvThemeing.Views
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer

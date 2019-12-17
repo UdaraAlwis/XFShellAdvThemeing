@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Themes;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Themes;
 
-namespace XFAdvThemeing.Views
+namespace XFShellAdvThemeing.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ThemeSelectionPage : ContentPage

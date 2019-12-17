@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Services;
-using XFAdvThemeing.Views;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Services;
+using XFShellAdvThemeing.Views;
 
-namespace XFAdvThemeing
+namespace XFShellAdvThemeing
 {
     /// <summary>
     /// Based on: https://docs.microsoft.com/en-us/samples/xamarin/xamarin-forms-samples/userinterface-theming/

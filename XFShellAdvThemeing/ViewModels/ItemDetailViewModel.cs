@@ -1,8 +1,8 @@
 ﻿using System;
 
-using XFAdvThemeing.Models;
+using XFShellAdvThemeing.Models;
 
-namespace XFAdvThemeing.ViewModels
+namespace XFShellAdvThemeing.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {

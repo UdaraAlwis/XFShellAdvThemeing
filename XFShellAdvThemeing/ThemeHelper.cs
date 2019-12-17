@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
-using XFAdvThemeing.Models;
-using XFAdvThemeing.Themes;
+using XFShellAdvThemeing.Models;
+using XFShellAdvThemeing.Themes;
 
-namespace XFAdvThemeing
+namespace XFShellAdvThemeing
 {
     public static class ThemeHelper
     {
