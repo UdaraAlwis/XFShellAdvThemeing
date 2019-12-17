@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="XFAdvThemeing.Views.ThemeSelectionPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:XFAdvThemeing.Controls;assembly=XFAdvThemeing"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:XFAdvThemeing"
+    xmlns:models="clr-namespace:XFAdvThemeing.Models;assembly=XFAdvThemeing"
+    Title="Change App Theme"
+    ios:Page.UseSafeArea="true">
+
+    <StackLayout Margin="20">
+
+        <Picker
+            x:Name="ThemePicker"
+            Title="Select Theme"
+            ios:Picker.UpdateMode="WhenFinished"
+            SelectedIndexChanged="OnPickerSelectionChanged"
+            VerticalOptions="Start" />
+
+        <Label
+            x:Name="statusLabel"
+            HorizontalOptions="Center"
+            Style="{DynamicResource SmallLabelStyle}"
+            TextColor="SlateGray"
+            VerticalOptions="Start" />
+
+        <Button
+            x:Name="CloseButton"
+            Clicked="CloseButton_Clicked"
+            Style="{DynamicResource ButtonStyle}"
+            Text="Back"
+            VerticalOptions="EndAndExpand" />
+    </StackLayout>
+</ContentPage>
