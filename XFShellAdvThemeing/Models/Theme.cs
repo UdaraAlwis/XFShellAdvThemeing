@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XFShellAdvThemeing.Models
+﻿namespace XFShellAdvThemeing.Models
 {
     public enum Theme
     {

@@ -4,11 +4,12 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Color x:Key="PageBackgroundColor">White</Color>
-    <Color x:Key="NavigationBarColor">#fc0384</Color>
     <Color x:Key="PrimaryColor">#fc0384</Color>
     <Color x:Key="AccentColor">#ffb8dd</Color>
     <Color x:Key="SecondaryColor">White</Color>
+
+    <Color x:Key="PageBackgroundColor">White</Color>
+    <Color x:Key="NavigationBarColor">#fc0384</Color>
 
     <Color x:Key="PrimaryTextColor">#3d0020</Color>
     <Color x:Key="SecondaryTextColor">#610033</Color>
