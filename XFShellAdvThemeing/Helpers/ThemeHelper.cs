@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using XFShellAdvThemeing.Models;
 using XFShellAdvThemeing.Themes;
 
-namespace XFShellAdvThemeing
+namespace XFShellAdvThemeing.Helpers
 {
     public static class ThemeHelper
     {

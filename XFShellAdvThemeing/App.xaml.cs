@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using XFShellAdvThemeing.Helpers;
 using XFShellAdvThemeing.Models;
 using XFShellAdvThemeing.Services;
-using XFShellAdvThemeing.Views;
 
 namespace XFShellAdvThemeing
 {
