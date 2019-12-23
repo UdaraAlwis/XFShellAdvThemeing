@@ -69,7 +69,7 @@ namespace XFShellAdvThemeing.Views
                     {
                         // Theme setting successful
                         statusLabel.Text = $"{ThemePicker.SelectedItem.ToString()} theme loaded. Close this page.";
-                        Preferences.Set("CurrentTheme", ThemePicker.SelectedItem.ToString());
+                        Preferences.Set("CurrentAppTheme", ThemePicker.SelectedItem.ToString());
                     }
                 }
 

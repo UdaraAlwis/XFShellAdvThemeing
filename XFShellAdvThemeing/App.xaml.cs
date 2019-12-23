@@ -28,7 +28,7 @@ namespace XFShellAdvThemeing
         /// </summary>
         public void SetupCurrentTheme()
         {
-            var currentTheme = Preferences.Get("CurrentTheme", null);
+            var currentTheme = Preferences.Get("CurrentAppTheme", null);
             if (currentTheme != null)
             {
                 if (Enum.TryParse(currentTheme, out Theme currentThemeEnum))
