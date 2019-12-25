@@ -62,7 +62,7 @@
         <Button
             x:Name="ChangeThemeButton"
             Clicked="ChangeThemeButton_Clicked"
-            Style="{StaticResource ButtonStyle}"
+            Style="{DynamicResource ButtonStyle}"
             Text="Change App Theme" />
     </StackLayout>
 

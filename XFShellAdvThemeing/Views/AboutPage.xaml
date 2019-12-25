@@ -17,12 +17,6 @@
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="LightTextColor">#999999</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -92,7 +86,7 @@
                 <Button
                     Margin="0,10,0,0"
                     Command="{Binding OpenWebCommand}"
-                    Style="{StaticResource ButtonStyle}"
+                    Style="{DynamicResource ButtonStyle}"
                     Text="Learn more" />
             </StackLayout>
         </ScrollView>
