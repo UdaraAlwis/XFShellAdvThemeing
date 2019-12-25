@@ -9,6 +9,7 @@
     Title="{Binding Title}"
     iOsSpecific:Page.UseSafeArea="true"
     BackgroundColor="{DynamicResource PageBackgroundColor}"
+    Visual="Material"
     mc:Ignorable="d">
 
     <StackLayout Padding="15" Spacing="20">

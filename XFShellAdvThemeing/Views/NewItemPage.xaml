@@ -8,6 +8,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="New Item"
     iOsSpecific:Page.UseSafeArea="true"
+    BackgroundColor="{DynamicResource PageBackgroundColor}"
+    Visual="Material"
     mc:Ignorable="d">
 
     <ContentPage.ToolbarItems>
@@ -20,15 +22,17 @@
             <Label Style="{DynamicResource SmallLabelStyle}" Text="Text" />
             <Entry
                 d:Text="Item name"
+                Placeholder="Item name"
                 Text="{Binding Item.Text}"
-                Visual="Material" />
+                TextColor="{DynamicResource PrimaryTextColor}" />
 
             <Label Style="{DynamicResource SmallLabelStyle}" Text="Description" />
             <Editor
                 Margin="0"
                 d:Text="Item description"
+                Placeholder="Item description"
                 Text="{Binding Item.Description}"
-                Visual="Material" />
+                TextColor="{DynamicResource PrimaryTextColor}" />
         </StackLayout>
     </ContentPage.Content>
 
