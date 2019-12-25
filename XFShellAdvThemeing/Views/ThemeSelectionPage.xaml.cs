@@ -48,6 +48,11 @@ namespace XFShellAdvThemeing.Views
                 {
                     ThemePicker.SelectedIndex = 3;
                 }
+                else
+                if (currentTheme.FullName != null && currentTheme.FullName.Equals(typeof(BlueTheme).FullName))
+                {
+                    ThemePicker.SelectedIndex = 4;
+                }
 
                 if (ThemePicker.SelectedItem != null)
                     statusLabel.Text = $"Currently, {ThemePicker.SelectedItem.ToString()} theme loaded.";

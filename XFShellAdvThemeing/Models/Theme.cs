@@ -5,6 +5,7 @@
         Light,
         Dark,
         Pink,
-        Gold
+        Gold,
+        Blue
     }
 }

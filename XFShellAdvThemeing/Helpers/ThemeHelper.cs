@@ -34,6 +34,10 @@ namespace XFShellAdvThemeing.Helpers
                         mergedDictionaries.Add(new GoldTheme());
                         break;
 
+                    case Theme.Blue:
+                        mergedDictionaries.Add(new BlueTheme());
+                        break;
+
                     default:
                         mergedDictionaries.Add(new LightTheme());
                         break;

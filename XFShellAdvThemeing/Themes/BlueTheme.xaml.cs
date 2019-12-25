@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace XFShellAdvThemeing.Themes
 {
-    public partial class GoldTheme : ResourceDictionary
+    public partial class BlueTheme : ResourceDictionary
     {
-        public GoldTheme()
+        public BlueTheme()
         {
             InitializeComponent();
         }
