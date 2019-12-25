@@ -20,5 +20,12 @@
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
     <item name="windowActionModeOverlay">true</item>
+  
+    <!-- Got it from here: https://forums.xamarin.com/discussion/170362/change-background-color-of-the-selected-list-item -->
+    <item name="android:colorPressedHighlight">@color/colorListViewHighlighted</item>
+    <item name="android:colorLongPressedHighlight">@color/colorListViewHighlighted</item>
+    <item name="android:colorFocusedHighlight">@color/colorListViewHighlighted</item>
+    <item name="android:colorActivatedHighlight">@color/colorListViewHighlighted</item>
+    <item name="android:activatedBackgroundIndicator">@color/colorListViewHighlighted</item>
   </style>
 </resources>
