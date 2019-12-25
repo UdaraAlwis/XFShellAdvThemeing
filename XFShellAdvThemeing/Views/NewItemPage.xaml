@@ -17,17 +17,18 @@
 
     <ContentPage.Content>
         <StackLayout Padding="15" Spacing="20">
-            <Label FontSize="Medium" Text="Text" />
+            <Label Style="{DynamicResource SmallLabelStyle}" Text="Text" />
             <Entry
                 d:Text="Item name"
-                FontSize="Small"
-                Text="{Binding Item.Text}" />
-            <Label FontSize="Medium" Text="Description" />
+                Text="{Binding Item.Text}"
+                Visual="Material" />
+
+            <Label Style="{DynamicResource SmallLabelStyle}" Text="Description" />
             <Editor
                 Margin="0"
                 d:Text="Item description"
-                FontSize="Small"
-                Text="{Binding Item.Description}" />
+                Text="{Binding Item.Description}"
+                Visual="Material" />
         </StackLayout>
     </ContentPage.Content>
 
