@@ -3,7 +3,7 @@ Stunning App themes with Xamarin Forms Shell!
 
 You probably already know how to in classic Xamarin.Forms, but how about Setting up App Themes in a Xamarin.Forms Shell App?, now that's what this is for. 😉 
 
-Blog post: https://theconfuzedsourcecode.wordpress.com/2019/12/26/stunning-app-themes-in-xamarin-forms-shell-projects/
+Check out the blog post: https://theconfuzedsourcecode.wordpress.com/2019/12/26/stunning-app-themes-in-xamarin-forms-shell-projects/
 
 A little sneak peak:
 ![Android](/screenshots/PreviewStepByStepDemoAndroid.png)
@@ -79,7 +79,7 @@ Saving Theme Preferences:
 Preferences.Set("CurrentAppTheme", SelectedItem.ToString());
 ```
 
-Behold the beauty...
+Behold the beauty on Android and iOS...
 ![Android](/screenshots/PreviewCollectionAndroid.png)
 ![iOS](/screenshots/PreviewCollectioniOS.png)
 
