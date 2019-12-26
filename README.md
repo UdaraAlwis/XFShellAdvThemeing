@@ -5,9 +5,8 @@ You probably already know how to in classic Xamarin.Forms, but how about Setting
 
 Blog post: https://theconfuzedsourcecode.wordpress.com/2019/12/26/stunning-app-themes-in-xamarin-forms-shell-projects/
 
-Some sneak peak:
-![Android](/screenshots/PreviewCollectionAndroid.png)
-![iOS](/screenshots/PreviewCollectioniOS.png)
+A little sneak peak:
+![Android](/screenshots/PreviewStepByStepDemoAndroid.png)
 
 >Here we're using awesome built-in Xamarin.Forms Dynamic Binding, and Styling features to implement a neat App Theming solution.
 >An alternative for: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/theming
@@ -71,9 +70,16 @@ ICollection<ResourceDictionary> mergedDictionaries
 case Theme.Pink:
 	mergedDictionaries.Add(new PinkTheme());
 	break;
+...
+...
 ```
 
 Saving Theme Preferences: 
 ```csharp
 Preferences.Set("CurrentAppTheme", SelectedItem.ToString());
 ```
+
+Behold the beauty...
+![Android](/screenshots/PreviewCollectionAndroid.png)
+![iOS](/screenshots/PreviewCollectioniOS.png)
+
