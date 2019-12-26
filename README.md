@@ -5,7 +5,7 @@ You probably already know how to in classic Xamarin.Forms, but how about Setting
 
 Blog post: https://theconfuzedsourcecode.wordpress.com/
 
->Use of awesome built-in Xamarin.Forms Dynamic Binding, Static Binding and Style Properties.
+>Here we're using awesome built-in Xamarin.Forms Dynamic Binding, and Styling features to implement a neat App Theming solution.
 >An alternative for: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/theming
 >But focused on the awesome new paradigm of Xamarin.Forms Shell!
 
