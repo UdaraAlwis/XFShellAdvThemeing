@@ -1,7 +1,7 @@
 # XFShellAdvThemeing
 Stunning App themes with Xamarin Forms Shell! 
 
-You probably already know how to in classic Xamarin.Forms, but how about Xamarin.Forms Shell, now that's what this is for. 😉 
+You probably already know how to in classic Xamarin.Forms, but how about Setting up App Themes in a Xamarin.Forms Shell App?, now that's what this is for. 😉 
 
 Blog post: https://theconfuzedsourcecode.wordpress.com/
 
