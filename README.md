@@ -57,3 +57,19 @@ Sample UI Element:
     Style="{DynamicResource ButtonStyle}"
     Text="Change App Theme" />
 ```
+
+Dynamic App Theme Switching:
+```csharp
+ICollection<ResourceDictionary> mergedDictionaries
+		= Application.Current.Resources.MergedDictionaries;
+...
+...
+case Theme.Pink:
+	mergedDictionaries.Add(new PinkTheme());
+	break;
+```
+
+Saving Theme Preferences: 
+```csharp
+Preferences.Set("CurrentAppTheme", SelectedItem.ToString());
+```
