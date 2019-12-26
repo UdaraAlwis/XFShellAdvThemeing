@@ -17,7 +17,7 @@ Blog post: https://theconfuzedsourcecode.wordpress.com/
 - Use XF.Essentials Preferences API to save App Theme preferences
 
 Sample Theme File:
-```csharp
+```xaml
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ResourceDictionary
     x:Class="XFShellAdvThemeing.Themes.PinkTheme"
@@ -39,7 +39,7 @@ Sample Theme File:
 
 Sample Style:
 
-```csharp
+```xaml
 <Style x:Key="ButtonStyle" TargetType="Button">
     <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
     <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
@@ -50,7 +50,7 @@ Sample Style:
 
 Sample UI Element: 
 
-```csharp
+```xaml
 <Button
     x:Name="ChangeThemeButton"
     Clicked="ChangeThemeButton_Clicked"
