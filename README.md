@@ -9,7 +9,7 @@ Blog post: https://theconfuzedsourcecode.wordpress.com/
 >An alternative for: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/theming
 >But focused on the awesome new paradigm of Xamarin.Forms Shell!
 
-##### In a nutshell:
+### In a nutshell:
 - Define Theme files with Colors/Fonts/Images/Icons in them
 - Create Styles based on the Theme properties using Dynamic Binding
 - Bind the UI Elements to the Styles created earlier
